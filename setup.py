@@ -11,10 +11,10 @@ setup(
     long_description_content_type='text/markdown',
     long_description=open(path.join(here, "README.md"), encoding='utf-8').read(),
     # The project's main homepage.
-    url='https://github.com/OrangeX4/latex2sympy',
+    url='https://github.com/ZubinGou/latex2sympy',
     # Author details
-    author='OrangeX4',
-    author_email='318483724@qq.com',
+    author='ZubinGou',
+    author_email='zebgou@gmail.com',
     # Choose your license
     license='MIT',
     classifiers=[
@@ -40,6 +40,6 @@ setup(
     py_modules=['asciimath_printer', 'latex2sympy2'],
     install_requires=[
         'sympy>=1.4',
-        'antlr4-python3-runtime==4.7.2'
+        'antlr4-python3-runtime==4.11.1'
     ],
 )
